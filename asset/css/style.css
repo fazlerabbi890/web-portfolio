@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+}
+.navigation h1 {
+  font-size: arial black;
+  font-size: 45px;
+  color: black;
+  padding-top: 5rem;
+  margin-left: 5em;
+}
+.navigation {
+  display: flex;
+}
+.navigation span {
+  color: #ff6c00;
+}
+.bside ul {
+  display: flex;
+  gap: 58px;
+  margin-left: 47rem;
+  padding-top: 5rem;
+  font-size: 35px;
+}
+.hire {
+  padding: 10px 20px;
+  background-color: #ff6c00;
+}
+.hire:hover {
+  background-color: red;
+  color: white;
+  transition: 0.5s;
+  border-radius: 10px;
+}
+.blog {
+  margin-top: 0px;
+  color: black;
+  padding: 10px 20px;
+}
+.blog:hover {
+  background-color: #ff6c00;
+  color: white;
+  transition: 0.5s;
+  border-radius: 10px;
+}
